@@ -128,6 +128,6 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'}} # Detect that the PR author is dependabot
     steps:
-      - uses: fastify/github-action-merge-dependabot@v3.9.1
+      - uses: fastify/github-action-merge-dependabot@v3.10.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
