@@ -93,7 +93,7 @@ jobs:
         filename: ${{ matrix.portable-name }}
         path: theremotion-${{ matrix.name }}
     - name: Store portable version and installer
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: dist
         path: |
